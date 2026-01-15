@@ -2,7 +2,7 @@ import { createContext, useState, useEffect } from 'react'
 import axios from 'axios'
 
 // Backend API URL
-const API_URL = 'https://backend-7ar8.onrender.com'
+const API_URL = 'https://backend-7ar8.onrender.com/api'
 
 // Helper function to get headers with token
 function getHeaders() {
